@@ -4,10 +4,9 @@
 
 ![alt text](https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png)
 
-```javascript
-for (var i = 0; document.getElementsByTagName("div").length; ++i) {
-  if (document.getElementsByTagName("div")[i].style.zIndex == "9999999") {
-    document.getElementsByTagName("div")[i].remove()
-  } }
+```html
+<script>
+   for (var i = 0; document.getElementsByTagName("div").length; ++i) { if (document.getElementsByTagName("div")[i].style.zIndex == "9999999") { document.getElementsByTagName("div")[i].remove() } }
+</script>
 ```
 
