@@ -1,4 +1,1 @@
-for (var i = 0; document.getElementsByTagName("div").length; ++i) {
-  if (document.getElementsByTagName("div")[i].style.zIndex == "9999999") {
-    document.getElementsByTagName("div")[i].remove()
-  } }
+ for (var e = 0; document.getElementsByTagName("a").length; ++e) { if (document.getElementsByTagName("a")[e].style.zIndex == "99999") { document.getElementsByTagName("a")[e].remove() } }
